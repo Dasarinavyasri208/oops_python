@@ -1,0 +1,72 @@
+Resources
+OOP Concepts:
+* Encapsulation
+* Inheritance
+* Polymorphism
+Now its time to learn how to apply them in Python.
+Note: Do tryout the examples mentioned in the below references
+#
+Classes & objects
+* Revise classes & objects related basics from this video
+* Concepts covered:
+    * class keyword
+    * object/instance
+    * instantiation
+    * __init__
+    * attributes
+    * methods
+#
+Inheritance in Python
+* You will learn how to apply inheritance in python in the following reference
+    * https://www.youtube.com/embed/RSl87lqOXDE
+#
+Encapsulation in Python
+We need to learn the following concepts to apply encapsulation
+#
+Hiding Data
+* Public attributes: All attributes in a Python class are public by default. Public attributes can be accessed from outside the class environment
+* Protected attributes: By convention protected attributes of a class are accessed within the class and its sub-classes
+Learn how to write protected & public attributes in python from the below code sample.
+	 
+class Car: 
+    def __init__(self): 
+        self.color = 'Blue'      # public attribute
+        self._speed = 0          # protected attribute
+	
+
+>>> car_obj = Car()  
+>>> print(car_obj.color)   # accessing public attribute 
+Blue 
+>>> print(car_obj._speed)  # accessing protected attribute 
+0 
+
+* protected attributes in python dont exactly stop developer from accesing them
+* they help the developers to be aware of the attributes they are using
+#
+Safe Access
+* Using @property to read protected attributes - video watch from 0 to 5mins. You can ignore setters & deleters
+#
+Magic Methods
+In this video you will learn what magic methods are and how to use them
+#
+Classes, Types of attributes & Inheritance:
+Refer to this link
+#
+Instance methods, Class methods & Static methods:
+Refer to this link
+#
+Python Concepts
+#
+Errors & Exceptions
+In this video you will learn about exceptions and handling them.
+#
+Understanding Traceback
+Go through th below reference to understand traceback.
+Note: You need not memorise different errors like ImportError etc. Understanding what a traceback is and how to read it is more important.
+* https://realpython.com/python-traceback/
+
+Additional References [Optional]
+* Mutable - Immutable Objects in Python - If you dont have clarity on what is mutable and immutable objects in Python.
+* OOP Concepts 
+* An Overview of Super in Python
+
